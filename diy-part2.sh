@@ -15,5 +15,4 @@
 sed -i 's/192.168.1.1/192.168.6.222/g' package/base-files/files/bin/config_generate
 sed -i 's/OpenWrt/HP GEN8/g' package/base-files/files/bin/config_generate
 git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
-git clone https://github.com/vernesong/OpenClash.git -b master package/openclash 
-mv package/openclash/luci-app-openclash  package/luci-app-openclash  
+git clone https://github.com/vernesong/OpenClash.git -b master package/luci-app-openclash
